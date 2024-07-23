@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#name-input, #class-input, #specialization-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#add-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#player-list, #roster-section, #cooldown-section, #group-section {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.role-section {
+    margin-bottom: 20px;
+}
